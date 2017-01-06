@@ -1,0 +1,72 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    position: fixed;
+    height: 50px;
+    width:100%;
+}
+
+nav, ul, li{
+    display:inline-block;
+    background-color: #FFF;
+    margin-right: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li:hover{
+    border-bottom: solid #000 1px;
+    padding-bottom: 5px;
+}
+
+.bouton1{
+    padding-left:330px;
+}
+
+.bouton1:hover{
+    padding-left:330px;
+}
+
+header{
+    height:800px;
+    background: url(../img/_BG.jpg) center no-repeat;
+    background-size: cover;
+    color:#FFF;
+}
+
+h1{
+    font-family: Georgia;
+    color:#000;
+    padding-top:75px;
+    margin:0;
+    text-align: center;
+}
+
+#explorer{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 460px;
+    font-family: Helvetica;
+    border: solid #FFF 1px;
+    padding: 10px;
+    width:10%;
+    background-color: #FFF;
+    color:#000;
+    cursor: pointer;
+}
+
+#explorer:hover{
+    border-left: none;
+    border-right: none;
+    border-top: solid #FFF 1px;
+    border-bottom: solid #FFF 1px;
+    background-color: transparent;
+    cursor: pointer;
+    color:#FFF;
+}
