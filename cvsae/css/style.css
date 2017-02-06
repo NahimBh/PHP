@@ -1,0 +1,5 @@
+.first{
+    background-image: url("../img/_BG.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
