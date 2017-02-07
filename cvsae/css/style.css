@@ -3,3 +3,35 @@
     background-size: cover;
     min-height: 100vh;
 }
+
+.formulaire{
+    position: absolute;
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.formulaire form {
+    margin: auto;
+}
+
+.formulaire2{
+    position: absolute;
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.formulaire2 form {
+    margin: auto;
+}
+
+#fermer{
+    margin-left: 25px;
+}
+
+#fermer2{
+    margin-left: 25px;
+}
